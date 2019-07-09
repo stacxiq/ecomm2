@@ -1,0 +1,158 @@
+
+page-user-profile .toolbar-background-md
+
+{
+background: #FF4136;
+}
+
+
+page-user-profile .toolbar-title-md {
+    color: #FFF !important;
+    direction: rtl !important;
+
+    font-family: 'Cairo', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+page-user-profile .toolbar-title-md p{
+margin: 0 5px;
+display: inline-block;
+}
+
+
+
+page-user-profile .header-content .content {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    
+}
+
+
+page-user-profile .logorreg {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+page-user-profile .header-content .content .inputs button:first-child {
+    padding: 20px;
+    display: block;
+    border: 1px solid #fffa65 !important;
+    color: #fffa65;
+    font-family: 'Cairo', sans-serif;
+    float: right;
+}
+
+
+
+page-user-profile .header-content .content .inputs h2 {
+font-family: 'Cairo', sans-serif;
+margin-top: 20px;
+border-bottom: 1px dashed #fffa65;
+display: inline-block;
+color: #fffa65;
+padding-bottom: 8px;
+padding-right: 10px;
+padding-left: 10px;
+margin-bottom: 20px;
+}
+
+page-user-profile .header-content .content .inputs input {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    padding: 14px;
+    width: 100%;
+    border: 1px solid #CCC;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+page-user-profile .email, page-user-profile .pass, page-user-profile .name {
+    margin-bottom:10px;
+    position: relative;
+}
+
+
+page-user-profile .inputs i {
+    position: absolute;
+    top: 20px;
+    color: #FF4136;
+}
+
+page-user-profile .logorreg p {
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+    font-size: 17px;
+    margin: 0;
+    height: 100%;
+}
+
+
+.loginview {
+    display: none;
+}
+
+.dirion {
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+   
+}
+
+page-user-profile .micon{
+    display: inline-block;
+    border: 1px dashed;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    line-height: 130px;
+    font-size: 31px;
+    color: #fffa65;
+}
+
+
+
+page-user-profile .content{
+padding: 16px;
+}
+
+
+page-user-profile  .myimage {
+    height: 250px;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fffa65;
+    width: 100%;
+    border: 1px dashed #CCC;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+page-user-profile .imagedev {
+    margin-bottom: 10px;
+    border: 1px dashed #CCC;
+}
+
+page-user-profile  .myimage p {
+    margin: 0;
+}
+
+
+page-user-pr .logbut {
+    text-align: center;
+    margin-top: 30px;
+}
+
+page-user-pr .logbut p{
+    margin-top: 10px;
+}
+
+page-user-pr .logbut p > span {
+    color: #fffa65;
+}

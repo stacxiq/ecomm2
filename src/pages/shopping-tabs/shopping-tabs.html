@@ -1,0 +1,14 @@
+
+<ion-tabs [selectedIndex]="4" #myTabs *ngIf="m">
+    <ion-tab [root]="myproductsRoot" tabTitle="منتجاتي" tabIcon="list"></ion-tab>
+    <ion-tab [root]="buyRoot" tabTitle="اعلن هنا" tabIcon="basket"></ion-tab>
+    <ion-tab [root]="admin" tabTitle="محادثة" tabIcon="chatbubbles"></ion-tab>
+    <ion-tab [root]="myProfile" tabTitle="الصفحه الشخصيه" tabIcon="person" ></ion-tab>
+    <ion-tab [root]="allproductsRoot" tabTitle="الرئيسيه" tabIcon="home"></ion-tab>
+
+</ion-tabs>
+<ion-tabs [selectedIndex]="2" #myTabs *ngIf="!m">
+  <ion-tab [root]="myproductsRoot" tabTitle="منتجاتي" tabIcon="list"></ion-tab>
+  <ion-tab [root]="buyRoot" tabTitle="بيع" tabIcon="cart"></ion-tab>
+  <ion-tab [root]="allproductsRoot" tabTitle="الرئيسيه" tabIcon="home"></ion-tab>
+</ion-tabs>

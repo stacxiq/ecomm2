@@ -1,0 +1,35 @@
+page-product {
+  .imagedev{
+    transition:all 0.1s ease-in-out;
+
+  }
+  .imagedev:hover{
+    transform: scale(1.1, 1.1);
+
+  }
+  .imagedev:focus{
+    transform: scale(1.1);
+  }
+  .imagedev:mouseover{
+    transform: scale(1.1);
+
+  }
+}
+page-product .select {
+    display: flex;
+}
+
+page-product .select > div {
+    width: 100%;
+}
+
+page-product .select .price {
+    color: #FF4136;
+    direction: ltr;
+     text-align: right;
+}
+
+page-product .select .get {
+    color: #0074D9;
+    direction: ltr;
+}

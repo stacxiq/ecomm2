@@ -1,0 +1,96 @@
+S. Samir, [07.07.19 18:04]
+<ion-header>
+  <ion-navbar color="primary" style="text-align: right;" >
+    <ion-title id="navtitle" style="font-weight: bold;text-align: center;color: black;"> أنتيكــا  </ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <div class="fther">
+    
+    </div>
+    
+    <div class="register" padding>
+    <h2>سجل 
+      <span>الان</span>
+    </h2>
+    <p>وارفع بضاعتك</p>
+    
+    <ion-list>
+    
+        <style> 
+            input[type="text"]::placeholder {  
+                text-align: center;
+                color:rgb(211, 211, 211);
+            }
+            input[type="password"]::placeholder {  
+                text-align: center;
+                color:rgb(211, 211, 211);
+            } 
+            input[type="email"]::placeholder {  
+                text-align: center;
+                color:rgb(211, 211, 211);
+            } 
+        </style>
+        
+      <ion-item>
+        <input type="text" placeholder="الاسم الكامل" [(ngModel)]="name">
+      </ion-item>
+      <ion-item>
+          <input type="email" placeholder="البريد الالكتروني" [(ngModel)]="emailreg">
+      </ion-item>
+      
+        
+        <ion-item>
+          <input type="password" placeholder="كلمة المرور" [(ngModel)]="passreg">
+        </ion-item>
+      <ion-item>
+        <div class="logbut">
+          <button (click)="register(email,pass)">تسجيل</button>
+          <p  (click)="showLogin()">
+            <span>تسجيل</span>
+           الدخول
+          </p>
+        </div>
+      </ion-item>
+    
+    </ion-list>
+    
+    </div>
+    
+    
+  
+      <div class="login" padding>
+        <h2>مرحبا 
+          <span>بك</span>
+        </h2>
+        <p>قم بلدخول الى حسابك</p>
+        
+        <ion-list>
+    
+          <ion-item>
+            <input type="email" placeholder="البريد الالكتروني" #email>
+          </ion-item>
+        
+          
+          <ion-item>
+            <input type="password" placeholder="كلمة المرور" #pass>
+          </ion-item>
+        
+        
+          <ion-item>
+            <div class="logbut">
+              <button (click)="login(email.value,pass.value)">دخول</button>
+              <p (click)="showRegister()">
+                <span>انشاء</span>
+                 حساب جديد
+              </p>
+            </div>
+          </ion-item>
+        
+        
+        </ion-list>
+    </div>
+    
+    </ion-content>

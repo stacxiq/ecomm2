@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar color="primary" style="text-align: right;" >
+    <ion-title id="navtitle" style="font-weight: bold;text-align: center;color: black;"> شراء  </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding>
+    <div class="card">
+        <img class="imagedev" [src]="product?.image" style="width: 100% ; height: 350px;">
+    </div>
+                     <ion-list>
+                        <ion-item>
+                          <ion-icon name="person" slot="start"></ion-icon>
+                          <ion-label style="text-align: right">
+                            <p>اسم المنتج</p>
+                            <h2>{{product?.name}}</h2>
+                          </ion-label>
+                        </ion-item>
+                        <ion-item>
+                          <ion-icon name="mail" slot="end"></ion-icon>
+                          <ion-label style="text-align: right">
+                            <p> التفاصيل</p>
+                            <h2>{{product?.description}}</h2>
+                          </ion-label>
+                        </ion-item>
+                        <ion-item>
+                          <ion-icon name="mail" slot="end"></ion-icon>
+                          <ion-label style="text-align: right">
+                            <p>السعر</p>
+                            <h2>{{product?.price}} $</h2>
+                          </ion-label>
+                        </ion-item>
+                        <ion-item *ngIf="product?.status">
+                          <ion-icon name="information" slot="end"></ion-icon>
+                          <ion-label style="text-align: right">
+                            <p>الحاله</p>
+                            <h2>{{product?.status}} </h2>
+                          </ion-label>
+                        </ion-item>
+                      </ion-list>
+                      <div class="butadd">
+                          <button ion-button icon-only color="navdark" small (click)="rem()">
+                            <ion-icon name="remove"></ion-icon>
+                          </button>
+
+                            <button ion-button icon-only color="navdark"  style="font-size: 12px">
+                              {{i}}
+                           </button>
+
+                          <button ion-button icon-only color="navdark" small (click)="add()">
+                            <ion-icon name="add"></ion-icon>
+                          </button>
+                          <ion-item style="text-align: center">
+                              <button ion-button icon-only clear  (click)="buy(product)">
+                                <ion-icon name="cart"></ion-icon>
+                                buy
+                              </button>
+                      </ion-item>
+                          </div>
+
+
+
+</ion-content>

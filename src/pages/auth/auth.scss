@@ -1,0 +1,128 @@
+page-auth .fther {
+    height: 30%;
+    background-image: url('../../assets/imgs/backg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 165px;
+}
+
+page-auth .register {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+page-auth .register input {
+    direction: rtl;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    color: #fff;
+    background-color: transparent;
+}
+
+page-auth .register h2 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+page-auth .register h2 > span{
+    color: #fffa65;
+}
+
+page-auth .register p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+page-auth .register .logbut {
+    text-align: center;
+    margin-top: 30px;
+}
+
+page-auth .register .logbut p{
+    margin-top: 10px;
+}
+
+page-auth .register .logbut p > span {
+    color: #fffa65;
+}
+
+page-auth .register button {
+    background: #fffa65;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0);
+}
+
+.loaddire {
+    font-family: 'Cairo', sans-serif;
+}
+
+.register{
+    display: none;
+}
+
+
+page-auth .login {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+page-auth .login input {
+    direction: rtl;
+    padding: 15px;
+    width: 100%;
+    border: 0;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    color: #fff;
+    background-color: transparent;
+}
+
+page-auth .login h2 {
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+page-auth .login h2 > span{
+    color: #fffa65;
+}
+
+page-auth .login p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+page-auth .login .logbut {
+    text-align: center;
+    margin-top: 30px;
+}
+
+page-auth .login .logbut p{
+    margin-top: 10px;
+}
+
+page-auth .login .logbut p > span {
+    color: #fffa65;
+}
+
+page-auth .login button {
+    background: #fffa65;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px rgb(0, 0, 0);
+    
+}
+
+.loaddire {
+    font-family: 'Cairo', sans-serif;
+    color: #000;
+}

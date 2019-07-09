@@ -1,0 +1,24 @@
+<!--
+  Generated template for the AdminconnectPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title style="text-align: right">مراسلة الادمن</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list no-lines>
+    <ion-item-sliding>
+      <ion-item >
+        <ion-avatar item-left>
+          <img src="{{filteredusers?.image}}">
+        </ion-avatar>
+        <h2 style="color:#fff" (click)="chatme(filteredusers)">{{filteredusers?.name}}</h2>
+      </ion-item>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
